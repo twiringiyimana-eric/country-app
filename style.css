@@ -36,15 +36,18 @@ box-shadow: 01.25em 1.8em rgb(8,21,65,0.25em);
     display: grid;
     grid-template-columns: 9fr 3fr;
     gap:1.25em;
+    /* background: gray;
+    color:white; */
 
 } 
 .search-wrapper button{
      font-size:1em;
-     background:skyblue;
+     background:blue;
      color:white;
      padding:0.8em 0;
      border:none;
-     border-radius: 1.5em;
+     border-radius: 1em;
+
 }
 .search-wrapper input{
  font-size:1em;
@@ -88,4 +91,12 @@ box-shadow: 01.25em 1.8em rgb(8,21,65,0.25em);
 }
 .container h3{
     text-align: center;
+}
+.all{
+    text-align: center;
+
+}
+.all h1{
+    margin-top:5em;
+    text-transform: uppercase;
 }
