@@ -20,35 +20,35 @@ searchbtn.addEventListener("click", () => {
     <h2>${data[0].name.common}</h2>
     <div class="wrapper"> 
       <div class="data-wrapper"> 
-       <h4>Capital:</h4>
+       <h4><b>Capital:</b></h4>
        <span>${data[0].capital[0]}</span>
       </div>
     </div>
       
     <div class="wrapper"> 
     <div class="data-wrapper"> 
-     <h4>Continent:</h4>
+     <h4><b>Continent:</b></h4>
      <span>${data[0].continents[0]}</span>
     </div>
   </div>
 
   <div class="wrapper"> 
   <div class="data-wrapper"> 
-   <h4>Population:</h4>
+   <h4><b>Population:</b></h4>
    <span>${data[0].population}</span>
   </div>
 </div>
 
 <div class="wrapper"> 
   <div class="data-wrapper"> 
-   <h4>currency:</h4>
+   <h4><b>Currency</b>:</h4>
    <span>${data[0].currencies[Object.keys(data[0].currencies)].name}-${Object.keys(data[0].currencies)}</span>
   </div>
 </div>
    
 <div class="wrapper"> 
 <div class="data-wrapper"> 
- <h4>Common:</h4>
+ <h4><b>Common:</b></h4>
  <span>${Object.values(data[0].languages).toString().split(",").join(",")}</span>
 </div>
 </div>
