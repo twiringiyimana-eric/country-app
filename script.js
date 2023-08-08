@@ -56,11 +56,11 @@ searchbtn.addEventListener("click", () => {
 
   }).catch(()=>{
     if(countryName.lenght==0){
-        result.innerHTML='<h3> the input field can not be empty</h3>';
+        result.innerHTML='<h3>  The input field can not be empty</h3>';
 
     }
     else{
-        result.innerHTML='<h3>please enter valid country name.</h3>'
+        result.innerHTML='<h3>Please enter valid country name.</h3>'
     }
   })
 });
